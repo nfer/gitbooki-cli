@@ -1,8 +1,8 @@
 {
-    "name": "gitbook-cli",
+    "name": "gitbooki-cli",
     "version": "2.3.2",
     "homepage": "https://www.gitbook.com",
-    "description": "CLI to generate books and documentation using gitbook",
+    "description": "Another CLI to generate books and documentation using gitbook",
     "main": "bin/gitbook.js",
     "dependencies": {
         "q": "1.5.0",
@@ -27,24 +27,20 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/GitbookIO/gitbook-cli.git"
+        "url": "https://github.com/nfer/gitbooki-cli.git"
     },
-    "author": "FriendCode Inc. <contact@gitbook.com>",
+    "author": "Nfer Zhuang <nfer.zhuang@gmail.com>",
     "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/GitbookIO/gitbook-cli/issues"
+        "url": "https://github.com/nfer/gitbooki-cli/issues"
     },
     "bin": {
         "gitbook": "./bin/gitbook.js"
     },
     "contributors": [
         {
-            "name": "Aaron O'Mullan",
-            "email": "aaron@gitbook.com"
-        },
-        {
-            "name": "Samy Pessé",
-            "email": "samy@gitbook.com"
+            "name": "Nfer Zhuang",
+            "email": "nfer.zhuang@gmail.com"
         }
     ]
 }
